@@ -37,6 +37,7 @@ ifneq ($(wildcard $(srctree)/arch/$(SRCARCH)/include/asm/kvm_para.h \
 header-y += kvm_para.h
 endif
 
+header-y += a1026.h
 header-y += acct.h
 header-y += adb.h
 header-y += adfs_fs.h
@@ -363,6 +364,7 @@ header-y += tiocl.h
 header-y += tipc.h
 header-y += tipc_config.h
 header-y += toshiba.h
+header-y += tpa2018d1.h
 header-y += tty.h
 header-y += types.h
 header-y += udf_fs_i.h
@@ -408,3 +410,5 @@ header-y += msm_q6vdec.h
 header-y += msm_q6venc.h
 header-y += msm_ion.h
 header-y += msm_rotator.h
+header-y += msm_vidc_dec.h
+header-y += msm_vidc_enc.h
